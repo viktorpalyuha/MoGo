@@ -1,0 +1,616 @@
+header {
+  background-image: url(../img/header-background.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+nav .navbar-brand {
+  font-family: "Montserrat", bold;
+  margin-left: 18.75%;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: default;
+}
+nav #menu ul {
+  margin-right: 18.75%;
+}
+nav #menu .nav-item:not(last-child) {
+  padding-right: 12px;
+}
+nav #menu .nav-link {
+  font-family: "Montserrat", regular;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 12px;
+  border-bottom: 4px solid transparent;
+}
+nav #menu .nav-link:hover {
+  color: #fce38a;
+  border-bottom-color: #fce38a;
+}
+
+header #welcome-to-mogo {
+  margin-top: 60px;
+  color: white;
+}
+header #welcome-to-mogo h1 {
+  font-family: "Kaushan Script", regular;
+  margin-bottom: 16px;
+}
+header #welcome-to-mogo p {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1;
+}
+header #welcome-to-mogo hr {
+  background-color: white;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+}
+header div > button.btn {
+  border: 3px solid white;
+  border-radius: 0%;
+  padding: 8px 30px 8px 30px;
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+header div > button.btn:hover {
+  color: #E98182;
+}
+header .bottom-header-navigation .nav-link {
+  color: #f8f0d2;
+  font-family: "Montserrat", regular;
+}
+header .bottom-header-navigation .nav-link hr {
+  background-color: #f8f0d2;
+  width: 200px;
+  height: 2px;
+  border: none;
+}
+header .bottom-header-navigation .nav-link span {
+  color: white;
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+header .bottom-header-navigation .nav-link:hover {
+  color: #ffffff;
+}
+header .bottom-header-navigation .nav-link:hover hr {
+  background: #f38181;
+  background: linear-gradient(to right, #f38181 0%, #f38181 23%, #f1817f 23%, #f67f83 23%, #f08285 24%, #f68080 24%, #f3827e 24%, #ee8186 25%, #fffff6 25%, #fffeff 25%, white 26%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f38181", endColorstr="#ffffff",GradientType=1 );
+}
+
+main #about-us-text h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 81px;
+}
+main #about-us-text h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main #about-us-text hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main #about-us-text p {
+  font-family: "Roboto", regular;
+  color: #999999;
+  margin-bottom: 81px;
+}
+main #about-us-pictures {
+  margin-bottom: 81px;
+}
+main #about-us-pictures h4 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+  color: white;
+  display: none;
+}
+main #about-us-pictures img {
+  display: none;
+}
+main #about-us-pictures #devices {
+  background-image: url("../img/about-us/devices.jpg");
+  width: 380px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+main #about-us-pictures #devices:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/about-us/devices.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: linear 0.3s;
+}
+main #about-us-pictures #headphones {
+  background-image: url(../img/about-us/headphones.jpg);
+  width: 380px;
+  height: 250px;
+  background-position: 100% auto;
+}
+main #about-us-pictures #headphones:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/about-us/headphones.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: ease 0.5s;
+}
+main #about-us-pictures #camera {
+  background-image: url(../img/about-us/camera.jpg);
+  width: 380px;
+  height: 250px;
+  background-position: center;
+}
+main #about-us-pictures #camera:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/about-us/camera.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: ease 0.5s;
+}
+main #facts {
+  background-color: #95e1d3;
+}
+main #facts > div div {
+  border-left: 1px solid #b5eae0;
+}
+main #facts > div div:last-child {
+  border-right: 1px solid #b5eae0;
+}
+main #facts > div div p {
+  font-family: "Montserrat", regular;
+  color: white;
+  font-size: 12px;
+}
+main #facts > div div p span {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+main #services {
+  margin-bottom: 81px;
+}
+main #services #services-header h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 81px;
+}
+main #services #services-header h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main #services #services-header hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main #services #services-main hr {
+  width: 100%;
+}
+
+main #design {
+  background-image: url(../img/design/design-background.jpg);
+  height: 660px;
+  background-position: center;
+  background-size: cover;
+}
+main #design h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 55px;
+}
+main #design h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main #design hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main #services2 #services2-header h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 41px;
+}
+main #services2 #services2-header h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main #services2 #services2-header hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main #services2 #services2-header p {
+  font-family: "Roboto", regular;
+  color: #999999;
+  margin-bottom: 81px;
+}
+
+#services2-main #services2-main-photo {
+  height: 310px;
+}
+#services2-main #services2-main-photo img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+#services2-main .card {
+  border-radius: 0%;
+}
+#services2-main .card a {
+  font-family: "Montserrat", regular;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+}
+#services2-main .card .card-header {
+  background-color: transparent;
+}
+#services2-main .card .card-header:after {
+  content: url(../img/services2/icons-accordion/arrow-up.png);
+  float: right;
+}
+#services2-main .card .collapsed:after {
+  content: url(../img/services2/icons-accordion/arrow-down.png);
+}
+
+main .testimonial-carousel {
+  margin-top: 81px;
+  background-color: #f8f8f8;
+  height: 210px;
+}
+main .testimonial-carousel .carousel-item {
+  margin-top: 150px;
+}
+main .testimonial-carousel img {
+  height: 75%;
+}
+main .testimonial-carousel .carousel-control-next-icon {
+  background-image: url(../img/testimonials/arrow-right.png);
+  width: 15px;
+  height: 15px;
+}
+main .testimonial-carousel .carousel-control-prev-icon {
+  background-image: url(../img/testimonials/arrow-left.png);
+  width: 15px;
+  height: 15px;
+}
+main .testimonial-carousel p {
+  color: #999999;
+  padding-left: 30px;
+  font-family: "Roboto", light italic;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+}
+main .testimonial-carousel p span {
+  font-family: "Kaushan Script", regular;
+  color: black;
+}
+main .testimonial-carousel .red-line {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main .our-team .our-team-text h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 81px;
+}
+main .our-team .our-team-text h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main .our-team .our-team-text hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .our-team .our-team-text p {
+  font-family: "Roboto", regular;
+  color: #999999;
+  margin-bottom: 81px;
+}
+
+main .our-team .our-team-pictures li {
+  background-color: #fce38a;
+  border-right: 1px solid #f9bd87;
+  height: 40px;
+  width: 40px;
+}
+main .our-team .our-team-pictures li:last-child {
+  border-right: 1px solid transparent;
+}
+main .our-team .our-team-pictures li:hover {
+  background-color: #f38181;
+}
+main .our-team .our-team-pictures #mathew {
+  background-image: url("../img/our-team/mathew.jpg");
+  width: 380px;
+  height: 470px;
+  background-position: center;
+  background-size: cover;
+}
+main .our-team .our-team-pictures #mathew nav {
+  display: none;
+}
+main .our-team .our-team-pictures #mathew:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/our-team/mathew.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: linear 0.3s;
+}
+main .our-team .our-team-pictures #christopher {
+  background-image: url(../img/our-team/christopher.jpg);
+  width: 380px;
+  height: 470px;
+  background-position: 100% auto;
+}
+main .our-team .our-team-pictures #christopher nav {
+  display: none;
+}
+main .our-team .our-team-pictures #christopher:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/our-team/christopher.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: ease 0.5s;
+}
+main .our-team .our-team-pictures #michael {
+  background-image: url(../img/our-team/michael.jpg);
+  width: 380px;
+  height: 470px;
+  background-position: center;
+}
+main .our-team .our-team-pictures #michael nav {
+  display: none;
+}
+main .our-team .our-team-pictures #michael:hover {
+  background: linear-gradient(to bottom, rgba(219, 116, 116, 0.91) 0%, rgba(220, 134, 118, 0.91) 26%, rgba(225, 187, 123, 0.91) 75%, rgba(227, 205, 124, 0.91) 100%), url("../img/our-team/michael.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8db7474", endColorstr="#e8e3cd7c",GradientType=0 );
+  box-shadow: 12px 12px #95e1d3;
+  transform: translateY(-13px);
+  transition: ease 0.5s;
+}
+main .our-team .our-team-pictures .facebook a {
+  background-image: url(../img/our-team/icons/facebook-pink.png);
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+main .our-team .our-team-pictures .facebook a:hover {
+  background-image: url(../img/our-team/icons/facebook-white.png);
+}
+main .our-team .our-team-pictures .twitter a {
+  background: url(../img/our-team/icons/twitter-pink.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+main .our-team .our-team-pictures .twitter a:hover {
+  background: url(../img/our-team/icons/twitter-white.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+}
+main .our-team .our-team-pictures .pinterest a {
+  background: url(../img/our-team/icons/pinterest-pink.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+main .our-team .our-team-pictures .pinterest a:hover {
+  background: url(../img/our-team/icons/pinterest-white.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+}
+main .our-team .our-team-pictures .instagram a {
+  background: url(../img/our-team/icons/instagram-pink.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+main .our-team .our-team-pictures .instagram a:hover {
+  background: url(../img/our-team/icons/instagram-white.png);
+  background-position: center;
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+}
+
+main .picture-captions h5 {
+  font-family: "Montserrat", regular;
+  font-weight: bold;
+  font-size: 14px;
+}
+main .picture-captions p {
+  font-family: "Roboto", light italic;
+  font-style: italic;
+  font-weight: 300;
+  color: #999999;
+}
+
+main .brands {
+  background-color: #f8f8f8;
+  margin-top: 81px;
+}
+
+main .work-text h4 {
+  font-family: "Kaushan Script", regular;
+  margin-top: 81px;
+}
+main .work-text h2 {
+  font-family: "Montserrat", bold;
+  font-weight: bold;
+}
+main .work-text hr {
+  background-color: #f38181;
+  height: 3px;
+  width: 60px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .work-text p {
+  font-family: "Roboto", regular;
+  color: #999999;
+  margin-bottom: 81px;
+}
+
+main .work-pictures img {
+  display: none;
+}
+main .work-pictures h5 {
+  color: #ffffff;
+  padding-top: 15px;
+  font-size: 17px;
+  display: none;
+}
+main .work-pictures p {
+  color: #ffffff;
+  display: none;
+}
+main .work-pictures .man {
+  width: 330px;
+  height: 260px;
+  background: url("../img/works/man.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .man:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/man.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .bridge {
+  width: 330px;
+  height: 260px;
+  background-image: url("../img/works/bridge.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .bridge:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/bridge.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .roof {
+  width: 330px;
+  height: 260px;
+  background-image: url("../img/works/roof.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .roof:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/roof.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+main .work-pictures .inside-building {
+  width: 330px;
+  height: 260px;
+  background-image: url("../img/works/inside-building.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .inside-building:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/inside-building.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .jelly-fish {
+  width: 410px;
+  height: 520px;
+  background-image: url("../img/works/jelly-fish.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .jelly-fish:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/jelly-fish.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .dome {
+  height: 260px;
+  width: 330px;
+  background-image: url("../img/works/dome.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .dome:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/dome.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .skyscrapper {
+  width: 330px;
+  height: 260px;
+  background-image: url("../img/works/building.jpg");
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+main .work-pictures .skyscrapper:hover {
+  background: linear-gradient(to bottom, rgba(234, 138, 137, 0.91) 0%, rgba(236, 158, 140, 0.91) 28%, rgba(240, 211, 143, 0.91) 76%, rgba(241, 226, 145, 0.91) 100%), url("../img/works/building.jpg");
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e8ea8a89", endColorstr="#e8f1e291",GradientType=0 );
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
