@@ -1,7 +1,7 @@
 header {
 	background-image: url(../img/header-background.jpg);
 	background-position: center;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 nav {
@@ -734,7 +734,7 @@ main .work-pictures {
     height: 520px;
     background-image: url("../img/works/jelly-fish.jpg");
     background-position: center;
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-repeat: no-repeat;
 
     &:hover {
@@ -743,7 +743,7 @@ main .work-pictures {
 		background: linear-gradient(to bottom, rgba(234,138,137,0.91) 0%,rgba(236,158,140,0.91) 28%,rgba(240,211,143,0.91) 76%,rgba(241,226,145,0.91) 100%), url("../img/works/jelly-fish.jpg");
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ea8a89', endColorstr='#e8f1e291',GradientType=0 );
 		background-position: center;
-		background-size: 100% auto;
+		background-size: auto 100%;
 		background-repeat: no-repeat;
 	}
 
@@ -786,4 +786,368 @@ main .work-pictures {
 		background-repeat: no-repeat;
 	}
   }
+}
+
+
+main {
+	.testimonials2 {
+		margin-top: 81px;
+		height: 210px;
+
+		.carousel-item {
+			margin-top: 150px;	
+		}
+
+		img {
+			border-radius: 50%;
+			width: 120px;
+			height: 120px;
+		}
+
+		.carousel-control-next-icon {
+			background-image: url(../img/testimonials/arrow-right.png);
+			width: 15px;
+			height: 15px;
+		}
+
+		.carousel-control-prev-icon {
+			background-image: url(../img/testimonials/arrow-left.png);
+			width: 15px;
+			height: 15px;
+		}
+
+		p {
+			color: #999999;
+			padding-left: 30px;
+			font-family: "Roboto", light italic;
+			font-style: italic;
+			font-weight: 300;
+			font-size: 18px;
+
+			span {
+				font-family: "Kaushan Script", regular;
+				color: black;
+			}
+		}
+
+		.red-line {
+			background-color: #f38181;
+			height: 3px;
+			width: 60px;
+			border: none;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+main {
+	.what-people-say {
+		padding-top: 88px;
+		padding-bottom: 88px;
+		margin-top: 81px;
+		background-image: url("../img/what-people-say/background.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		h4 {
+			font-family: "Kaushan Script", regular;
+		}
+
+		h2 {
+			font-family: "Montserrat", bold;
+			font-weight: bold;
+		}
+
+		hr {
+			background-color: #f38181;
+			height: 3px;
+			width: 60px;
+			border: none;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.main {
+			margin-top: 70px;
+		}
+
+		.red-line {
+			background-color: #f38181;
+			height: 3px;
+			width: 60px;
+			border: none;
+			margin-bottom: 10px;
+		}
+
+		.nick\&mike {
+			margin-left: 110px;
+		}
+
+		.jaelynn, .mike {
+			padding-top: 80px;
+		}
+
+		.text {
+			padding-left: 30px;
+
+			h2 {
+				font-size: 14px;
+				font-family: "Montserrat", regular;
+			}
+
+			p:first-of-type {
+				font-size: 15px;
+				font-family: "Roboto", light italic;
+				font-style: italic;
+				font-weight: 300;
+				color: #333333;
+			}
+
+			.text-justify {
+				font-size: 14px;
+				font-family: "Roboto", regular;
+				color: #999999;
+			}
+		}
+	}
+}
+
+main .blog {
+	margin-top: 81px;
+	margin-bottom: 81px;
+
+	.blog-header {
+		h4 {
+			font-family: "Kaushan Script", regular;
+		}
+
+		h2 {
+			font-family: "Montserrat", bold;
+			font-weight: bold;
+		}
+
+		hr {
+			background-color: #f38181;
+			height: 3px;
+			width: 60px;
+			border: none;
+			margin-top: 20px;
+			margin-bottom: 28px;
+		}
+	}
+
+	.blog-main {
+		.card {
+			border-radius: 0%;
+			border: none;
+			margin-right: 20px;
+			.card-header {
+				border: none;
+				padding: 0px;
+			}
+
+			.card-body {
+				padding-left: 0px;
+				padding-bottom: 5px;
+				h5 {
+					font-size: 14px;
+					font-weight: 600;
+					font-family: "Montserrat", regular;
+				}
+
+				p {
+					font-family: "Roboto", regular;
+					color: #999999;
+					font-size: 14px;
+					text-align: justify;
+				}
+			}
+
+			.card-footer {
+				background-color: #ffffff;
+				padding: 12px 20px 0px 0px;
+
+				p{
+					margin: 0;
+					color: #999999;
+					padding-left: 5px;
+					font-family: "Roboto", light italic;
+					font-style: italic;
+
+					&:first-of-type {
+						padding-right: 15px;
+					}
+				}
+
+				img {
+					max-width: 20px;
+					max-height: 12px;
+				}
+			}
+		}
+	}
+}
+
+footer .map {
+	background-image: url("../img/map/background.jpg");
+	background-size: cover;
+	background-position: center;
+
+	img {
+		padding-top: 30px;
+	}
+
+	p {
+		font-family: "Montserrat", bold;
+		font-weight: bolder;
+		font-size: 18px; 
+		color: #f38181;
+		padding-top: 5px;
+		margin: 0;
+	}
+
+	.red-line {
+		background-color: #f38181;
+		height: 3px;
+		width: 60px;
+		border: none;
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
+
+	.modal {
+		.modal-body {
+			background-color: transparent;
+			padding: 0;
+
+			#map {
+				height: 450px;
+				width: auto;
+			}
+		}
+	}
+}
+
+footer {
+	background-color: #f8f8f8;
+}
+
+footer .mogo-blogs-instagram {
+	padding-top: 60px;
+
+	.mogo {
+		h1 {
+			font-family: "Montserrat", bold;
+			font-weight: bolder;
+			color: #cccccc;
+		}
+
+		p:first-of-type {
+			color: #999999;
+			text-align: justify;
+			font-family: "Roboto", regular;
+		}
+
+		p:nth-of-type(2) {
+			color: #333333;
+			font-family: "Montserrat", regular;
+			font-weight: bold;
+
+			span {
+				font-family: "Montserrat", bold;
+				font-weight: bold;
+				font-size: 19px;
+			}
+		}
+
+		p:nth-of-type(3) {
+			color: #999999;
+			font-family: "Roboto", light italic;
+			font-style: italic;
+
+			img {
+				padding-left: 5px;
+			}
+		}
+
+		form {
+			input {
+				border-radius: 0%;
+				border-color: #cccccc;
+				max-width: 200px;
+				height: 42px;
+			}
+
+			placeholder {
+				color: #cccccc;
+			} 
+
+			button {
+				background-color: #95e1d3;
+				color: #ffffff;
+				border-radius: 0%;
+				font-family: "Montserrat", bold;
+				font-weight: bold;
+				padding: 8px 18px 8px 18px;
+			}
+		}
+	}
+}
+
+footer .mogo-blogs-instagram .blogs{
+	p {
+		padding-left: 20px;
+		font-family: "Montserrat", regular;
+		font-weight: bold;
+		font-size: 14px;
+		text-align: justify;
+		margin-bottom: 0px;
+
+
+		span {
+			font-family: "Roboto", light italic;
+			font-style: italic;
+			color: #999999;
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+
+	.lantern, .waves, .lonely-boy {
+		margin-top: 23px;
+	}
+}
+
+footer .mogo-blogs-instagram .instagram {
+
+	.first-row {
+		margin-top: 12px;
+	}
+
+	img {
+		padding: 0px 2px 2px 0px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #333333;
+		margin-top: 10px;
+	}
+}
+
+footer {
+	.copyright {
+		p {
+			padding-bottom: 15px;
+			font-family: "Montserrat", regular;
+			font-weight: bold;
+			font-size: 14px;
+
+			span {
+				color: #f38181;
+			}
+		}
+	}
 }

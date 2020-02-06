@@ -29,3 +29,10 @@ $(".jelly-fish").mouseenter(function() {
 $(".jelly-fish").mouseleave(function() {
 	$(this).find("img, h5, p").css("display", "none");
 })
+
+function initMap() {
+  let newYork = {lat: 40.578250, lng: -73.940750};
+  let map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: newYork});
+  let marker = new google.maps.Marker({position: newYork, map: map});
+};
